@@ -1,0 +1,341 @@
+section {
+  margin-left: 20px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+p {
+  display: inline-block;
+  margin: 5px;
+}
+
+a {
+  display: inline-block;
+  margin: 20px;
+}
+
+.indexdiv {
+  display: inline-block;
+  border: 3px solid blue;
+  margin: 45px;
+  width: 25%;
+  box-shadow: 2px 2px 2px black;
+  background: white;
+  background: linear-gradient(orange, gray);
+}
+
+.index {
+  margin: 5px;
+  font-weight: bold;
+  text-align: center;
+  padding: 3px;
+  color: #006400;
+  text-shadow: 4px 4px 4px #A9A9A9;
+}
+
+/*
+=========
+How do I change the div box to match the other three div boxes?
+How do I center my divs?
+=========
+*/
+
+h1 {
+  font-size: 35px;
+  font-family: sans-serif;
+  font-style: oblique;
+  text-align: center;
+  color: #40e0d0;
+  text-shadow: 2px 2px 2px black;
+}
+
+#first {
+  border: 2px solid black;
+  border-radius: 35%;
+}
+
+p {
+  font-size: 15px;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+a:hover {
+  color: red;
+}
+
+header {
+  border-bottom: 2px solid black;
+  margin: 5px;
+  text-align: center;
+}
+
+#intro {
+  font-size: 25px;
+  text-transform: none;
+  font-family: sans-serif;
+  font-style: oblique;
+  text-align: center;
+  color: #40e0d0;
+  text-shadow: 2px 2px 2px black;
+}
+
+.content {
+  font-family: monospace;
+  padding-left: 2px;
+}
+
+#mainpage {
+background: linear-gradient(gray, white);
+}
+
+
+/*
+===========
+How do I get rid of the bottom gray bar in my html background?
+===========
+*/
+
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+
+.nav li:last-child {
+  margin-right: 0;
+}
+
+.images {
+  border: 2px solid black;
+  border-radius: 50%;
+  display: block;
+  margin-bottom: 22px;
+  max-width: 50%;
+  margin-left: 30px;
+}
+
+/*
+============
+interests and hobbies page
+============
+*/
+
+.hobbyinfo {
+  border: 1px solid #dfe2e5;
+  border-radius: 5px;
+  margin-top: 88px;
+  padding: 22px 0;
+  text-align: center;
+}
+
+.row {
+  margin-bottom: 44px;
+}
+
+#hobbiespage {
+background-image: url(http://www.screensavergift.com/wp-content/uploads/SnowFallingInTheForest.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+/*
+========
+How do I get the background image to fit the entire page???
+========
+*/
+
+table {
+  border-collapse: separate;
+  border-spacing: 5px 5px;
+  margin-left: 175px;
+  margin-top: 100px;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 10px 10px;
+  font-weight: bold;
+  color: #40e0d0;
+  text-shadow: 2px 2px 2px black;
+  font-size: 25px;
+}
+
+
+caption {
+  font-weight: bold;
+  font-size: 20px;
+  color: #40e0d0;
+  text-shadow: 2px 2px 2px black;
+  font-size: 35px;
+}
+
+#interestsandhobbieshome {
+  color: #40e0d0;
+  text-shadow: 2px 2px 2px black;
+}
+/*
+===========
+Previous Experience Page
+===========
+*/
+
+/*
+==============
+How do I get an image from my computer as the background wall paper?
+How do I make the linear gradient background to not have an annoying block at the bottom of the page?
+==============
+*/
+
+#previous_experiencepage {
+  background: linear-gradient(to bottom right, yellow, green);
+}
+
+.previous {
+  margin: 5px;
+  font-weight: bold;
+  text-align: center;
+  padding: 6px;
+  color: black;
+  text-shadow: 2px 2px 2px #A9A9A9;
+}
+
+.form {
+  display: block;
+  background: #EC173A;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.experience {
+  list-style: square;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+
+#experience_list {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
+
+.information {
+margin-bottom: 40px;
+margin-top: 40px;
+padding: 10px;
+}
+
+#form_footer_heading {
+  text-align: center;
+
+}
+
+input,
+select,
+textarea
+{
+  font: 600 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.contact label
+{
+  color: black;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 20px;
+
+}
+.contact input,
+.contact select,
+.contact textarea,
+{
+  border: 1px solid #c6c9cc;
+  border-radius: 5px;
+  color: #888;
+  display: block;
+  margin: 5px 0 27px 0;
+  padding: 5px 8px;
+}
+
+.contact textarea {
+  width: 590px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
+.btn-default {
+  border: 0;
+  border-radius: 5px;
+  background: #C0C0C0;
+  padding: 11px 30px;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+.btn-default:hover
+{
+  background: white;
+  border: 1px solid black;
+}
+
+#coding_dog {
+  display: block;
+  height: 250px;
+  width: 250px;
+  border: 2px solid black;
+}
+
+/*
+===============
+How do I center this text over the image?
+===============
+*/
+
+#coding_dog_text {
+  margin-left: 455px;
+  font-size: 20px;
+}
+
+#previous_experience_link {
+  display: block;
+}
+
+/*
+====================
+Coursegoals page
+===================
+*/
+
+#coursegoalsbackground {
+  background: linear-gradient(to left, teal, white);
+}
+
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  text-decoration: underline;
+  text-shadow: 1px 1px 1px white;
+}
+
+.coursegoalssection {
+  display: block;
+}
+
+.coursegoalsdiv {
+  border-bottom: 2px solid black;
+}
+
+h3 {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.coursegoalsp {
+  text-transform: inherit;
+  font-size: 18px;
+}
